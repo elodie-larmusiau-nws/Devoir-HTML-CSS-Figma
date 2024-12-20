@@ -1,0 +1,336 @@
+        html,
+        body {
+            margin: 0;
+            padding: 0;
+        }
+        
+        /*Header*/
+        .partie1 {
+          background-color: rgba(245, 247, 250, 1);
+          display: flex;
+          justify-content: space-between;
+          gap: 145px;
+          padding-top: 22px;
+          padding-right: 105px;
+          padding-bottom: 22px;
+          padding-left: 105px;
+
+       } 
+       
+       /*Header navigation bar*/
+       nav {
+        display: flex;
+        gap: 50px;
+      }
+      
+      nav a {
+        text-decoration: none;
+        color: rgba(24, 25, 31, 1);
+         font-size: 16px;
+        
+      }
+        
+         /*Header Login button*/
+          .Login {
+            border-style: none;
+            background-color: rgba(245, 247, 250, 1);
+            color: rgba(76, 175, 79, 1);
+           padding-top: 10px;
+           padding-right: 20px;
+           padding-bottom: 10px;
+           padding-left: 20px;
+           gap: 10px;
+           border-radius: 6px;
+        }
+        
+        /*Header Sign up button*/
+        .Sign {
+            border-style: none;
+            background-color: rgba(76, 175, 79, 1);
+            color: rgba(255, 255, 255, 1);
+            padding-top: 10px;
+           padding-right: 20px;
+           padding-bottom: 10px;
+           padding-left: 20px;
+           gap: 10px;
+           border-radius: 6px;
+        }
+
+        
+           
+        /*Main page*/
+        .partie2 { 
+            background-color:  rgba(245, 247, 250, 1);
+             display: flex;
+            justify-content:space-around;
+            gap: 104px;
+            padding-top: 96px;
+            padding-bottom: 96px;
+            padding-left: 144px;
+            padding-right: 144px;
+          }
+        
+        
+        /*Main page title*/    
+        h1 { 
+        
+        font-family: "Inter", sans-serif;
+        text-align: left;
+            font-size: 64px;
+            color: rgba(0, 0, 0, 1);
+            
+            
+        }
+        h1 span { 
+            color: rgba(76, 175, 79, 1);
+        }
+        
+        /*Main page text*/
+        .partie2 p {
+            font-family: "Inter", sans-serif;
+            text-align: left;
+            font-weight: 600;
+            font-size: 16px;
+            color: #717171;
+            display: flex;
+            
+        }
+
+        /*Main page Register button*/
+        .Register { 
+            display: flex;
+            border-style: none;
+            background-color: rgba(76, 175, 79, 1);
+            color: rgba(255, 255, 255, 1);
+            padding-top: 14px;
+            padding-right: 32px;
+            padding-bottom: 14px;
+            padding-left: 32px;
+            border-radius: 4px;
+            text-size-adjust: 16px;
+            text-align: center;
+            
+         
+        
+        }
+        
+        /*Main page container*/
+        .container {
+            justify-content: space-between;
+            display: flex;
+            text-align: center;
+            margin: 16px auto;
+            padding-right: 144px;
+            padding-left: 144px;
+           
+         
+        }
+
+        /* Text of main page boxes*/
+        h2 {
+            text-align: center;
+            font-family: "Inter", sans-serif;
+            font-size: 36px;
+            color: #4D4D4D;
+            font-weight: 600;
+        }
+        
+        
+    h3 {
+        text-align: center;
+        font-family: "Inter", sans-serif;
+        font-size: 16px;
+        color: rgba(113, 113, 113, 1);
+        
+    }
+ 
+  /* Our 3 boxes*/
+ .card {
+    background-color: rgba(255, 255, 255, 1);
+    box-shadow: 0px 2px 4px 0px rgba(171, 190, 209, 0.2);
+    gap: 8px;
+    padding-top: 24px;
+    padding-right: 32px;
+    padding-bottom: 24px;
+    padding-left: 32px;
+    border-radius: 8px;
+    width: 299px;
+    height: 260px;
+    text-align: center;
+ }
+
+
+
+
+ /*Main page part 3*/
+.partie3 {
+    background-color:rgba(255, 255, 255, 1);
+    ;
+    display: flex;
+   justify-content:space-between;
+   padding-top: 52px;
+   padding-bottom: 52px;
+   padding-left: 144px;
+   padding-right: 144px;
+
+}
+
+/*Main page part 3 text*/
+  h4 {
+    text-align: left;
+   font-family: "Inter", sans-serif;
+   font-size: 36px;
+   color: rgba(77, 77, 77, 1);
+   
+  }
+
+  /*Main page part 3 explanation text*/
+  .partie3 p { 
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: rgba(113, 113, 113, 1);
+    
+   }
+
+  
+   /*Learn More first button*/
+    .Learn {
+
+    border-style: none;
+    background-color: rgba(76, 175, 79, 1);
+    color: white; 
+    padding-top: 14px;
+    padding-right: 32px;
+    padding-bottom: 14px;
+    padding-left: 32px;
+    border-radius: 4px;
+  
+  }      
+    
+ 
+ 
+ 
+  /*Main page part 4*/
+  .partie4 {
+    background-color: white;
+    display: flex;
+   justify-content:space-between;
+   padding-top: 52px;
+   padding-bottom: 52px;
+   padding-left: 144px;
+   padding-right: 144px;
+  }
+
+  /*Main page part 4 text*/
+  h4 {
+    text-align: left;
+   font-family: "Inter", sans-serif;
+   font-size: 36px;
+   color: rgba(77, 77, 77, 1);
+  }
+  
+  /*Main page part 4 explanation text*/
+  .partie4 p {
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: rgba(113, 113, 113, 1);
+  }
+   
+
+    /*Learn More second button*/    
+    .learn2 {
+    border-style: none;
+    background-color:  rgba(76, 175, 79, 1);
+    color: white; 
+    padding-top: 14px;
+    padding-right: 32px;
+    padding-bottom: 14px;
+    padding-left: 32px;
+    border-radius: 4px;
+  }
+
+   
+ 
+  /* Last part*/
+    section {
+      text-align: center;
+      align-items: center;
+    }
+    
+    /*Box footer*/
+    .boxfooter {
+      background-color: rgba(245, 247, 250, 1);
+      padding-top: 64px;
+      padding-bottom: 64px;
+      max-width: 1200px;
+      max-height: 364px;
+      margin-left: 10%;
+      margin-right: 10%;
+      margin-top: 5%;
+      margin-bottom: 5%;
+      border-radius: 8px;
+    }
+    
+    /*Box footer text*/
+    .boxfooter h1 {
+      font-size: 64px;
+      text-align: center;
+    }
+    
+    /*Box footer Demo button*/
+     .Demo {
+      border-style: none;
+      background-color: rgba(76, 175, 79, 1);
+      color: white;
+      padding-top: 14px;
+      padding-right: 32px;
+      padding-bottom: 14px;
+      padding-left: 32px;
+      gap: 8px;
+      border-radius: 4px;
+    }
+    
+   
+   
+    /*Footer*/
+    .footer-noir {
+      background-color: rgba(38, 50, 56, 1);
+      padding-top: 64px;
+      padding-left: 165px;
+      padding-bottom: 64px;
+      padding-right: 165px;
+    }
+    
+    /*Footer text about the site rights*/
+    .footer-noir p {
+      color: rgba(245, 247, 250, 1);
+     }
+        
+   
+        
+        
+       
+        
+
+
+
+
+    
+      
+      
+
+
+
+    
+
+     
+    
+
+
+
+  
+
+
+
