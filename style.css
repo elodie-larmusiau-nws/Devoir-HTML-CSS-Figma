@@ -2,6 +2,7 @@
         body {
             margin: 0;
             padding: 0;
+            font-family: "Inter", sans-serif;
         }
         
         /*Header*/
@@ -73,9 +74,7 @@
         
         /*Main page title*/    
         h1 { 
-        
-        font-family: "Inter", sans-serif;
-        text-align: left;
+            text-align: left;
             font-size: 64px;
             color: rgba(0, 0, 0, 1);
             
@@ -87,7 +86,7 @@
         
         /*Main page text*/
         .partie2 p {
-            font-family: "Inter", sans-serif;
+           
             text-align: left;
             font-weight: 600;
             font-size: 16px;
@@ -129,7 +128,6 @@
         /* Text of main page boxes*/
         h2 {
             text-align: center;
-            font-family: "Inter", sans-serif;
             font-size: 36px;
             color: #4D4D4D;
             font-weight: 600;
@@ -138,7 +136,6 @@
         
     h3 {
         text-align: center;
-        font-family: "Inter", sans-serif;
         font-size: 16px;
         color: rgba(113, 113, 113, 1);
         
@@ -178,15 +175,13 @@
 /*Main page part 3 text*/
   h4 {
     text-align: left;
-   font-family: "Inter", sans-serif;
-   font-size: 36px;
-   color: rgba(77, 77, 77, 1);
+    font-size: 36px;
+    color: rgba(77, 77, 77, 1);
    
   }
 
   /*Main page part 3 explanation text*/
   .partie3 p { 
-    font-family: "Inter", sans-serif;
     font-weight: 400;
     font-size: 14px;
     color: rgba(113, 113, 113, 1);
